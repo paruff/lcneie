@@ -13,7 +13,7 @@ steps:
 - task: Maven@3
   inputs:
     workingDirectory: service/ 
-    mavenPomFile: 'pom.xml'
+    mavenPomFile: 'service/pom.xml'
     mavenOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.8'
