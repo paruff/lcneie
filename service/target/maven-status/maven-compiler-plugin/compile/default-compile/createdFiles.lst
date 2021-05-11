@@ -1,0 +1,5 @@
+com/example/simplerestapis/controller/WebController.class
+com/exercies/apis/SampleRestApisApplication.class
+com/exercise/apis/models/SampleResponse.class
+com/exercise/apis/models/PostResponse.class
+com/exercise/apis/models/PostRequest.class
