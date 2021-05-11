@@ -11,6 +11,7 @@ pool:
 
 steps:
 - task: Maven@3
+  workingDirectory: service/ 
   inputs:
     mavenPomFile: 'pom.xml'
     mavenOptions: '-Xmx3072m'
